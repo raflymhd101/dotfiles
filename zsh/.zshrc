@@ -110,9 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias lah='ls -alh'
-alias ag='antigravity'
 alias dockter='docker compose exec -it --user=$(id -u):$(id -g) php-fpm sh'
-alias vpsalok='ssh alok@139.162.48.182'
 alias vi='nvim'
 alias dps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}"'
 
@@ -121,11 +119,6 @@ dockterdb ()
     local user=$1
 
     docker compose exec -it --user=$(id -u):$(id -g) database psql -U "$1" -h 0.0.0.0 -p 5432
-}
-
-antigravity()
-{
-    (/home/raflywithme/.local/share/AntigravityIDE/antigravity-ide --no-sandbox "$@" > /dev/null 2>&1 &)
 }
 
 #source ~/powerlevel10k/powerlevel10k.zsh-theme
