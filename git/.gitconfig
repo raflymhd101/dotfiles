@@ -1,0 +1,51 @@
+[alias]
+    fap                 = fetch --all --prune
+    co                  = checkout
+    lg                  = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+    lgg                 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+    st                  = status
+    cp                  = cherry-pick
+    ds                  = diff --staged
+
+[user]
+    email               = raflyfadli63@gmail.com
+    name                = Muhammad Rafly
+
+[core]
+    pager               = delta
+
+[interactive]
+    diffFilter          = delta --color-only
+
+########################################
+#               THEME: NORD            #
+########################################
+[delta]
+    syntax-theme        = "Monokai Extended"
+    minus-style         = "bold #BF616A"
+    plus-style          = "bold #A3BE8C"
+    file-style          = "bold #81A1C1"
+    hunk-header-style   = "bold #B48EAD"
+
+#########################################
+#               THEME: TOKYO            #
+#########################################
+# [delta]
+# syntax-theme          = "Monokai Extended"
+# minus-style           = "bold #F7768E"
+# plus-style                = "bold #9ECE6A"
+# file-style                = "bold #7AA2F7"
+# hunk-header-style         = "bold #BB9AF7"
+
+###########################################
+#               THEME: DRACULA            #
+###########################################
+# [delta]
+# syntax-theme          = "Monokai Extended"
+# minus-style           = "bold #FF5555"
+# plus-style                = "bold #50FA7B"
+# file-style                = "bold #8BE9FD"
+# hunk-header-style         = "bold #BD93F9"
+
+[merge]
+    conflictStyle       = zdiff3
