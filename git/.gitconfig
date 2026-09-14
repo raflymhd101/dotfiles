@@ -18,24 +18,44 @@
     diffFilter          = delta --color-only
 
 ########################################
+#        THEME: KANAGAWA DRAGON        #
+########################################
+#[delta]
+#    syntax-theme        = "Monokai Extended"
+#    minus-style         = "bold #c4746e"
+#    plus-style          = "bold #8a9a7b"
+#    file-style          = "bold #8ba4b0"
+#    hunk-header-style   = "bold #957fb8"
+
+########################################
 #               THEME: NORD            #
 ########################################
-[delta]
-    syntax-theme        = "Monokai Extended"
-    minus-style         = "bold #BF616A"
-    plus-style          = "bold #A3BE8C"
-    file-style          = "bold #81A1C1"
-    hunk-header-style   = "bold #B48EAD"
+#[delta]
+#    syntax-theme        = "Monokai Extended"
+#    minus-style         = "bold #BF616A"
+#    plus-style          = "bold #A3BE8C"
+#    file-style          = "bold #81A1C1"
+#    hunk-header-style   = "bold #B48EAD"
 
 #########################################
 #               THEME: TOKYO            #
 #########################################
-# [delta]
-# syntax-theme          = "Monokai Extended"
-# minus-style           = "bold #F7768E"
-# plus-style                = "bold #9ECE6A"
-# file-style                = "bold #7AA2F7"
-# hunk-header-style         = "bold #BB9AF7"
+#[delta]
+#    syntax-theme          = "Monokai Extended"
+#    minus-style           = "bold #F7768E"
+#    plus-style            = "bold #9ECE6A"
+#    file-style            = "bold #7AA2F7"
+#    hunk-header-style     = "bold #BB9AF7"
+
+#########################################
+#               THEME: TOKYO MOON       #
+#########################################
+[delta]
+    syntax-theme          = "ansi"
+    minus-style           = "bold #ff757f"
+    plus-style            = "bold #c3e88d"
+    file-style            = "bold #82aaff"
+    hunk-header-style     = "bold #c099ff"
 
 ###########################################
 #               THEME: DRACULA            #
